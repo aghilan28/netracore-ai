@@ -44,15 +44,6 @@ Backend: FastAPI, Python 3.11+, Uvicorn, OpenCV, Ultralytics YOLOv8.
 
 Storage: local upload and processed folders for simple hackathon deployment.
 
-## Screenshots
-
-Add screenshots here after running the app:
-
-- Landing page
-- AI command dashboard
-- CCTV upload and detection preview
-- PPE compliance dashboard
-- Heatmap visualization
 
 ## Local Setup
 
@@ -94,26 +85,105 @@ Detection response format:
   "timestamp": "00:01:22"
 }
 ```
+---
 
-## Deployment
 
-Frontend on Vercel:
+## 🔁 Core Workflow
 
-1. Import this repository.
-2. Set `NEXT_PUBLIC_API_URL` to the deployed backend URL.
-3. Deploy with the default Next.js settings.
+1. Surveillance feed uploaded
+2. AI detection pipeline processes frames
+3. Detection engine identifies anomalies/events
+4. Analytics engine generates operational insights
+5. Dashboard visualizes incidents in real time
+6. Human operators validate and respond
 
-Backend on Render:
+---
 
-1. Create a new Python web service from `backend/`.
-2. Build command: `pip install -r requirements.txt`
-3. Start command: `uvicorn app.main:app --host 0.0.0.0 --port $PORT`
+# 🤖 AI Integration
 
-Backend on Railway:
+## AI-Powered Components
 
-1. Create a new service rooted at `backend/`.
-2. Railway will use the included `Procfile`.
-3. Keep uploads local for demo use.
+- 🎥 Computer Vision Detection Pipeline
+- 🧠 Real-Time Incident Classification
+- ⚠️ PPE & Safety Compliance Monitoring
+- 📊 Behavioral Analytics Engine
+- 🔍 Smart Threat Detection
+- 📈 AI-Generated Incident Summaries
+
+> Designed to assist operational monitoring teams — not replace human oversight.
+
+---
+
+# ⚙️ Features
+
+- 📹 Real-time surveillance dashboard
+- 🚨 Smart incident alerts
+- 👷 PPE compliance monitoring
+- 📊 Operational analytics dashboard
+- 📈 Heatmap visualization
+- 🧠 AI-generated event summaries
+- 📁 Incident history tracking
+- 🔍 Threat detection workflows
+- 🌙 Modern enterprise SaaS UI
+- 📱 Fully responsive interface
+
+---
+
+# 📊 Impact Model (Estimated)
+
+| Metric | Traditional Monitoring | With NetraCore AI |
+|--------|------------------------|-------------------|
+| Incident detection speed | Delayed | Real-time |
+| Monitoring efficiency | Manual-heavy | AI-assisted |
+| Safety compliance visibility | Limited | High |
+| Operator workload | High | Reduced |
+| Response coordination | Moderate | Improved |
+
+---
+
+## Operations
+
+- Multi-camera monitoring environments
+- Industrial & enterprise surveillance operations
+- AI-assisted prioritization workflows
+
+👉 Enables faster operational awareness and intelligent incident response.
+
+---
+
+# 🎬 Demo Flow
+
+1. Open surveillance dashboard
+2. Upload surveillance footage/image
+3. AI processes visual input
+4. Incidents & alerts generated
+5. Analytics dashboard updates
+6. Monitoring team validates incidents
+
+👉 Demonstrates:
+**Detection → Analysis → Alerting → Operational Response**
+---
+
+# 🌐 Deployment
+
+## Frontend
+Deployed on Vercel
+
+## Backend
+Deployed on Railway / Render
+
+---
+
+# 🔐 Design Philosophy
+
+- AI-assisted operational monitoring
+- Human-centered surveillance intelligence
+- Real-time situational awareness
+- Scalable enterprise architecture
+- Explainable detection workflows
+- Modern SaaS dashboard experience
+
+---
 
 ## Future Scope
 
